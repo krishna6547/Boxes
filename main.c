@@ -1,6 +1,6 @@
 #include <stdio.h>   
 #include <time.h>
-#include <conio.h> // only available on certain compilers for instance TURBO C++
+//#include <conio.h> // only available on certain compilers for instance TURBO C++
 void delay(int ms) {
     clock_t start_time = clock();
     double milliseconds = ms * (CLOCKS_PER_SEC / 1000.0);
